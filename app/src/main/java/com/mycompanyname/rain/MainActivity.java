@@ -16,7 +16,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import static android.Manifest.permission.ACCESS_COARSE_LOCATION;
+import static android.Manifest.permission.CALL_PHONE;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -57,11 +57,11 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
 
-        if (ActivityCompat.checkSelfPermission(this, ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+        if (ActivityCompat.checkSelfPermission(this, CALL_PHONE) == PackageManager.PERMISSION_GRANTED) {
             return true;
         }
 
-        if (shouldShowRequestPermissionRationale(ACCESS_COARSE_LOCATION)) {
+        if (shouldShowRequestPermissionRationale(CALL_PHONE)) {
             new AlertDialog.Builder(this)
                     .setTitle(R.string.information_message)
                     .setMessage(R.string.permission_call_needed)
@@ -74,11 +74,11 @@ public class MainActivity extends AppCompatActivity {
                     .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialogInterface, int i) {
-                            requestPermissions(new String[]{ACCESS_COARSE_LOCATION}, REQUEST_PERFORM_CALLS);
+                            requestPermissions(new String[]{CALL_PHONE}, REQUEST_PERFORM_CALLS);
                         }
                     }).show();
         } else {
-            requestPermissions(new String[]{ACCESS_COARSE_LOCATION}, REQUEST_PERFORM_CALLS);
+            requestPermissions(new String[]{CALL_PHONE}, REQUEST_PERFORM_CALLS);
         }
 
         return false;
