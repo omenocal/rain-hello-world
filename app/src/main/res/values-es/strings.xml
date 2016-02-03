@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_world">EJEMPLO HOLA MUNDO</string>
+    <string name="position">Desarrollador Android</string>
+    <string name="rain_agency">Agencia RAIN</string>
+    <string name="rights_reserved">DERECHOS RESERVADOS © 2016</string>
+    <string name="permission_granted">Con permiso</string>
+    <string name="no_permission_granted">Sin permiso</string>
+    <string name="information_message">Mensaje de información</string>
+    <string name="permission_call_needed">Permiso de llamada es necesario para esta operación. ¿Quieres habilitarlo?</string>
+
+    <string name="security_call">Tu dispositivo no tiene permiso de realizar llamadas</string>
+    <string name="unable_perform_calls">Tu dispositivo no es capaz de realizar llamadas</string>
+</resources>

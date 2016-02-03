@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RAIN</string>
+    <string name="rain_agency">RAIN Agency</string>
+    <string name="name">Octavio Menocal</string>
+    <string name="position">Android Developer</string>
+    <string name="mail">octaviom@rain.agency</string>
+    <string name="url">http://rain.agency</string>
+    <string name="hello_world">HELLO WORLD EXAMPLE</string>
+    <string name="rights_reserved">RIGHTS RESERVED © 2016</string>
+    <string name="permission_granted">Permission</string>
+    <string name="no_permission_granted">No permission</string>
+    <string name="information_message">Information Message</string>
+    <string name="permission_call_needed">Call permission is needed for this operation. Do you want to enable it?</string>
+
+    <string name="security_call">Your device has no rights to perform calls</string>
+    <string name="unable_perform_calls">Your device is not able to perform calls</string>
+</resources>
